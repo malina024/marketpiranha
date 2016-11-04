@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Fjalla';
+  src: url('../fonts/fjalla/fjalla.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Londrina';
+  src: url('../fonts/londrina/Londrina.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	margin: 0px;
+    color: #b7b7b7;
+}
+
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    background: #b7b7b7;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    font-family: Londrina;
+}
+
+.msg{
+   font-family: Fjalla;
+   width: 260px;
+   margin: 150px auto;
+   padding: 20px 10px;
+   border: 1px solid #b7b7b7;
+   text-align: center;
+   font-size: 16px;
+   line-height: 25px;
+}
