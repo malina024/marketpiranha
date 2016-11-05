@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Fjalla';
-    src: url('../fonts/fjalla/fjalla.otf') format('opentype');
+    src: url('../fonts/fjalla.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Londrina';
-    src: url('../fonts/londrina/Londrina.otf') format('opentype');
+    src: url('../fonts/Londrina.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,12 +40,6 @@ body {
     padding: 20px 10px;
     border: 1px solid #b7b7b7;
     text-align: center;
-    font-size: 16px;
-    line-height: 25px;
-}
-
-.alert h1 {
-    display: inline;
     font-size: 16px;
     line-height: 25px;
 }

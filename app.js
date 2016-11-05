@@ -6,7 +6,7 @@
 
   var AppComponent = Component({
     selector: 'piranha-alert',
-    template: '<h1>{{alert.text}}</h1>'
+    template: '{{alert.text}}'
   })
   .Class({
     constructor: function() {
